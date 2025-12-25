@@ -4,15 +4,25 @@
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h3>Set Daily Limit</h3>
 
-  <select id="time">
-    <option value="2">2 Minutes</option>
-    <option value="5">5 Minutes</option>
-    <option value="10">10 Minutes</option>
-  </select>
+  <h2>Screen Time Guard</h2>
+  <p id="status">Choose your limit</p>
 
-  <button id="start">Start</button>
+  <div class="buttons">
+    <button data-time="1">1 min</button>
+    <button data-time="2">2 min</button>
+    <button data-time="5">5 min</button>
+    <button data-time="10">10 min</button>
+  </div>
+
+  <div class="toggle">
+    <label>
+      <input type="checkbox" id="hardMode">
+      Hard Mode
+    </label>
+  </div>
+
+  <div id="remaining"></div>
 
   <script src="popup.js"></script>
 </body>
