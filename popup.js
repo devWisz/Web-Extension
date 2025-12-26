@@ -18,3 +18,4 @@ const currencyNames = {
     "SGD":"Singapore Dollar"
 };
 
+
