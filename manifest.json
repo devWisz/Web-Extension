@@ -1,0 +1,22 @@
+
+{
+
+    "manifest_version": 3,
+
+    "name": "Smart Currency Converter",
+
+    "version": "1.1",
+
+    "description": "Convert between currencies instantly. Fast, simple, and reliable.",
+
+    "action": {
+
+      "default_popup": "popup.html",
+
+      "default_icon": "icon.png"
+
+    },
+
+    "permissions": []
+
+  }
