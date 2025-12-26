@@ -1,0 +1,5 @@
+#Smart currency converter extension 
+
+.
+.
+.
