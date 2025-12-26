@@ -19,3 +19,12 @@ const currencyNames = {
 };
 
 
+
+
+const populateCurrencyDropdowns = async () => {
+  try {
+    const res = await fetch(`${API_URL}USD`);
+    const data = await res.json();
+    const currencies = Object.keys(data.rates);
+
+   
