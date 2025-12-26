@@ -41,7 +41,7 @@ const populateCurrencyDropdowns = async () => {
     targetSelect.value = "NPR";
 
   } catch (err) {
-    resultEl.textContent = " Could not load currency list.";
+    resultEl.textContent = " Sorry !! Errror in load currency list.";
   }
 };
 
